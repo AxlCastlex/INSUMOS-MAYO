@@ -26,8 +26,8 @@ jobs:
       - name: Upload categorized data
         uses: actions/upload-artifact@v2
         with:
-          name: datos-categorizados
-          path: datos_categorizados.xlsx
+          name: INSUMOS 2023_MAY 2024 (version 1)
+          path: INSUMOS 2023_MAY 2024 (version 1).xLsx
 
       - name: Upload elbow method plot
         uses: actions/upload-artifact@v2
